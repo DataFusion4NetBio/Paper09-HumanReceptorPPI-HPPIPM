@@ -1,0 +1,17 @@
+
+- NCBI GeneProtein list file : human.ncbiprotein.list : 161564 lines
+- genesym2geneid: 24367 entries. 
+- geneid2genesymb: 24380 entries. 
+
+- HPMR ReceptorGeneList file : 1254 lines
+- receptorNCBIgene: 615 entries. 
+- For receptor list file: 611 lines GeneName items used 
+- For receptor list file: 24 lines HpredID items used 
+
+- Add Manually labeled HPMR Receptor file : 589 lines
+- Now receptorNCBIgene: 904 entries. 
+- From this Manually labeled HPMR Receptor file: 297 lines GeneSymbol used 
+#geneID1	geneSym1	geneID2	geneSym2	RFpnScore	hprdLabel		GeneID1:Synonyms:description		27features		GDBID	GeneticDisorder
+
+- Input human PPI result File: 24379 lines; 
+- Output receptors filtered human PPI score file: 904 lines; 

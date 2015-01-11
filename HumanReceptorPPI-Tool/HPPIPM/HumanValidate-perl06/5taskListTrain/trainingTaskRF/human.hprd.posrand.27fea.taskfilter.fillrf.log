@@ -1,0 +1,46 @@
+perl G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain/Batch_generateTrain_4inputTaskGeneList.pl G:\qyj\research\12-HumanDrosophiliavalidate-software\12HumanValidate\5taskListTrain\inputTaskList\test2.GeneNames.txt G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain/ G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/ncbi_info/human.ncbiprotein.list G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain/trainingTaskRF/human.hprd.posrand.27fea.taskfilter.fillrf
+-------- Build the new task based train feature RF-format file  ---------------
+
+1. --------  get task related pos feature 
+perl G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//extractPart_ppifea_byInputGeneNameList.pl  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//hprdpos-rand42w-ppi-fea/human.hprdpairwiseNoself.posPair  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//hprdpos-rand42w-ppi-fea/human.hprdpairwiseNoself.posPair.27fea  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/ncbi_info/human.ncbiprotein.list G:\qyj\research\12-HumanDrosophiliavalidate-software\12HumanValidate\5taskListTrain\inputTaskList\test2.GeneNames.txt G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.hprdpairwiseNoself.posPair.task  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.hprdpairwiseNoself.posPair.27fea.task 
+
+- NCBI GeneProtein list file : G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/ncbi_info/human.ncbiprotein.list : 161564 lines
+- genesym2geneid: 24367 entries. 
+- geneid2genesymb: 24380 entries. 
+
+- Input Task GeneList file : 207 lines
+- valid taskGene : 183 entries. 
+- For input task list file: 185 lines GeneName used 
+
+- Input human PPI File: 14608 lines; 
+- Output task filtered human PPI file: 293 lines; 
+
+2. --------  get task related rand feature 
+perl G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//extractPart_ppifea_byInputGeneNameList.pl  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//hprdpos-rand42w-ppi-fea/human.nohprdbind.randPair.300w.first42w  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//hprdpos-rand42w-ppi-fea/human.nohprdbind.randPair.300w.first42w.27fea  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/ncbi_info/human.ncbiprotein.list G:\qyj\research\12-HumanDrosophiliavalidate-software\12HumanValidate\5taskListTrain\inputTaskList\test2.GeneNames.txt G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.nohprdbind.randPair.300w.first42w.task  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.nohprdbind.randPair.300w.first42w.27fea.task 
+
+- NCBI GeneProtein list file : G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/ncbi_info/human.ncbiprotein.list : 161564 lines
+- genesym2geneid: 24367 entries. 
+- geneid2genesymb: 24380 entries. 
+
+- Input Task GeneList file : 207 lines
+- valid taskGene : 183 entries. 
+- For input task list file: 185 lines GeneName used 
+
+- Input human PPI File: 432197 lines; 
+- Output task filtered human PPI file: 6410 lines; 
+
+3. --------  combine to get the train feature file in raw format 
+perl G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//catTwoFiles.pl   G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.hprdpairwiseNoself.posPair.27fea.task  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.nohprdbind.randPair.300w.first42w.27fea.task  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.hprd.posrand.task.27fea
+
+- Input first file: 293 lines; 
+
+- Input second file: 6410 lines; 
+- Output concatenate file: 6703 lines; 
+
+4. --------  fill missing the feature  
+perl G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//filledMissingValueHuman.27fea.pl   G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.hprd.posrand.task.27fea G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.hprd.posrand.task.27fea.fill 
+6703 lines.
+
+5. --------  convert the feature to RF format 
+perl G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//convert_file_forRF_12PPI.human27fea.pl   G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain//trainingTaskRF/human.hprd.posrand.task.27fea.fill G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/5taskListTrain/trainingTaskRF/human.hprd.posrand.27fea.taskfilter.fillrf  420000
+Total: 6703 ; Rand: 6410 ; 27 features each line

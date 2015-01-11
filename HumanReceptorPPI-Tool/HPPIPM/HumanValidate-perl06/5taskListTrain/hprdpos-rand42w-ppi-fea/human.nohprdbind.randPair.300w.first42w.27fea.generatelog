@@ -1,0 +1,296 @@
+
+ human PPI Features Extracting ........ 
+
+----------------------  1 gene-expression   -----------------------
+perl ./3expression/batch_geneexp_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list 0.6   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp  ./3expression
+
+- GDS330
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS330.soft ./3expression/human/data/GPL/GPL91.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS330.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:11582.
+- Size of gennSymbol having gene expression:8685.
+- This gene expression data's sample size: 120
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+52084 of them has co-expression feature !
+
+- GDS365
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS365.soft ./3expression/human/data/GPL/GPL271.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS365.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:19460.
+- Size of gennSymbol having gene expression:8710.
+- This gene expression data's sample size: 66
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+50160 of them has co-expression feature !
+
+- GDS531
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS531.soft ./3expression/human/data/GPL/GPL91.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS531.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:11582.
+- Size of gennSymbol having gene expression:8685.
+- This gene expression data's sample size: 173
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+52084 of them has co-expression feature !
+
+- GDS534
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS534.soft ./3expression/human/data/GPL/GPL96.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS534.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:20210.
+- Size of gennSymbol having gene expression:12720.
+- This gene expression data's sample size: 75
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+109985 of them has co-expression feature !
+
+- GDS596
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS596.soft ./3expression/human/data/GPL/GPL96.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS596.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:20210.
+- Size of gennSymbol having gene expression:12721.
+- This gene expression data's sample size: 158
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+109985 of them has co-expression feature !
+
+- GDS601
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS601.soft ./3expression/human/data/GPL/GPL771.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS601.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:25364.
+- Size of gennSymbol having gene expression:15257.
+- This gene expression data's sample size: 42
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+148262 of them has co-expression feature !
+
+- GDS619
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS619.soft ./3expression/human/data/GPL/GPL962.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS619.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:26193.
+- Size of gennSymbol having gene expression:13723.
+- This gene expression data's sample size: 91
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+119630 of them has co-expression feature !
+
+- GDS651
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS651.soft ./3expression/human/data/GPL/GPL570.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS651.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:41614.
+- Size of gennSymbol having gene expression:18737.
+- This gene expression data's sample size: 37
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+219977 of them has co-expression feature !
+
+- GDS715
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS715.soft ./3expression/human/data/GPL/GPL96.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS715.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:20210.
+- Size of gennSymbol having gene expression:12721.
+- This gene expression data's sample size: 87
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+109985 of them has co-expression feature !
+
+- GDS806
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS806.soft ./3expression/human/data/GPL/GPL1223.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS806.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:17924.
+- Size of gennSymbol having gene expression:15141.
+- This gene expression data's sample size: 60
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+149542 of them has co-expression feature !
+
+- GDS807
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS807.soft ./3expression/human/data/GPL/GPL1223.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS807.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:17924.
+- Size of gennSymbol having gene expression:15141.
+- This gene expression data's sample size: 60
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+149542 of them has co-expression feature !
+
+- GDS842
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS842.soft ./3expression/human/data/GPL/GPL318.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS842.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:28452.
+- Size of gennSymbol having gene expression:13845.
+- This gene expression data's sample size: 44
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+122206 of them has co-expression feature !
+
+- GDS843
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS843.soft ./3expression/human/data/GPL/GPL319.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS843.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:28453.
+- Size of gennSymbol having gene expression:13846.
+- This gene expression data's sample size: 49
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+122216 of them has co-expression feature !
+
+- GDS987
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS987.soft ./3expression/human/data/GPL/GPL96.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS987.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:20210.
+- Size of gennSymbol having gene expression:12721.
+- This gene expression data's sample size: 41
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+109985 of them has co-expression feature !
+
+- GDS1085
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS1085.soft ./3expression/human/data/GPL/GPL1823.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS1085.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:28410.
+- Size of gennSymbol having gene expression:14045.
+- This gene expression data's sample size: 35
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+125560 of them has co-expression feature !
+
+- GDS1086
+perl ./3expression/get_gene_expression_human.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w ./3expression/human/human.ncbiprotein.list ./3expression/human/data/GDS/GDS1086.soft ./3expression/human/data/GPL/GPL1824.annot.txt 0.6 ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp.GDS1086.coexp
+- Size of human geneID_geneSymbol_list: 24380.
+- Size of gene Symbols mentioned in GPL file:28406.
+- Size of gennSymbol having gene expression:14039.
+- This gene expression data's sample size: 38
+5000 10000 15000 20000 25000 30000 35000 40000 45000 50000 55000 60000 65000 70000 75000 80000 85000 90000 95000 100000 105000 110000 115000 120000 125000 130000 135000 140000 145000 150000 155000 160000 165000 170000 175000 180000 185000 190000 195000 200000 205000 210000 215000 220000 225000 230000 235000 240000 245000 250000 255000 260000 265000 270000 275000 280000 285000 290000 295000 300000 305000 310000 315000 320000 325000 330000 335000 340000 345000 350000 355000 360000 365000 370000 375000 380000 385000 390000 395000 400000 405000 410000 415000 420000 425000 430000 ==> 432197 pairs; 
+125455 of them has co-expression feature !
+
+perl ./3expression/Combine16singleFeatures.pl ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.16coexp
+432197 rows !   17 values totally;
+ -------------------   2 gene-ontology  -------------------- 
+
+ ==> Function ! 
+perl ./2GO/get_go_genericdetail.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./2GO/gene_association.human.slim F ./2GO/human.ncbiprotein.list ./2GO/goslim_generic.func.go  ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.gofunc 
+
+- 32 go slim entries/features we consider ! 
+- Size of NCBI_protein_gene_list: (if fly, then size of those genes having FBids ) 161561.
+- Size of genes having go_association mapping info:  11154.
+
+ ==> Function summarize ! 
+perl ./2GO/summarize_go_genericdetail.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.gofunc  ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.gofuncsum 
+Summary GO feature file: ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.gofunc  - 432197 lines.
+
+ ==> Component ! 
+perl ./2GO/get_go_genericdetail.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./2GO/gene_association.human.slim C ./2GO/human.ncbiprotein.list ./2GO/goslim_generic.comp.go  ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.gocomp 
+
+- 32 go slim entries/features we consider ! 
+- Size of NCBI_protein_gene_list: (if fly, then size of those genes having FBids ) 161561.
+- Size of genes having go_association mapping info:  10110.
+
+ ==> Component summarize ! 
+perl ./2GO/summarize_go_genericdetail.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.gocomp  ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.gocompsum 
+Summary GO feature file: ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.gocomp  - 432197 lines.
+
+ ==> Process ! 
+perl ./2GO/get_go_genericdetail.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./2GO/gene_association.human.slim P ./2GO/human.ncbiprotein.list ./2GO/goslim_generic.proc.go  ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.goproc 
+
+- 49 go slim entries/features we consider ! 
+- Size of NCBI_protein_gene_list: (if fly, then size of those genes having FBids ) 161561.
+- Size of genes having go_association mapping info:  10810.
+
+ ==> Process summarize ! 
+perl ./2GO/summarize_go_genericdetail.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.goproc  ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.goprocsum 
+Summary GO feature file: ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.goproc  - 432197 lines.
+
+---------------------------   3 sequence-similarity     --------------------------
+perl ./4sequence/get_blastHits.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./4sequence/human.blastp.scores  ./4sequence/human.ncbiprotein.list  ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.blastp 
+- Size of NCBI_protein_gene_list:  161564.
+- Size of blastp evalue pairs (gene in the recent NCBI ):  804685.
+- Input list:  432197 pairs ! - Blastp best hits :  765 pairs ! 
+  -------------------   4 homology-PPI ------------------------------
+
+perl   ./5homology/get_homologyPPI.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./5homology/human.ncbiprotein.list  ./5homology/psi_blast/psi_blast.tab.human2yeast ./5homology/dip_ppis/dip.yeast20050403.lst   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.yeastHMppi
+
+para1: ./5homology/human.ncbiprotein.list
+para2: ./5homology/psi_blast/psi_blast.tab.human2yeast
+para3: ./5homology/dip_ppis/dip.yeast20050403.lst
+
+- Size of NCBI_protein_gene_list:  161561.
+- Size of genes having homology in Yeast: 4722.
+- Yeast species ./5homology/dip_ppis/dip.yeast20050403.lst PPI pairs: 15429; 
+
+- Input protein pair file: 432197 pairs ! ; 
+- 424 has homology PPI in ./5homology/dip_ppis/dip.yeast20050403.lst; 
+perl   ./5homology/get_homologyYeastfullsvmPredictPPI.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./5homology/human.ncbiprotein.list  ./5homology/psi_blast/psi_blast.tab.human2yeast ./5homology/full_svm_predict/full_pair_list.NoHm.filled.dips.svm.0.7.subpairs   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.yeastHMppi.dips.svm
+
+para1: ./5homology/human.ncbiprotein.list
+para2: ./5homology/psi_blast/psi_blast.tab.human2yeast
+para3: ./5homology/full_svm_predict/full_pair_list.NoHm.filled.dips.svm.0.7.subpairs
+
+- Size of NCBI_protein_gene_list:  161561.
+- Size of genes having homology in Yeast: 4722.
+- Yeast species ./5homology/full_svm_predict/full_pair_list.NoHm.filled.dips.svm.0.7.subpairs PPI pairs: 179365; 
+
+- Input protein pair file: 432197 pairs ! ; 
+- 1094 has homology PPI in ./5homology/full_svm_predict/full_pair_list.NoHm.filled.dips.svm.0.7.subpairs; 
+perl   ./5homology/get_homologyYeastfullsvmPredictPPI.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./5homology/human.ncbiprotein.list  ./5homology/psi_blast/psi_blast.tab.human2yeast ./5homology/full_svm_predict/full_pair_list.NoHm.filled.mips.svm.m0.2process.subpairs   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.yeastHMppi.mips.svm
+
+para1: ./5homology/human.ncbiprotein.list
+para2: ./5homology/psi_blast/psi_blast.tab.human2yeast
+para3: ./5homology/full_svm_predict/full_pair_list.NoHm.filled.mips.svm.m0.2process.subpairs
+
+- Size of NCBI_protein_gene_list:  161561.
+- Size of genes having homology in Yeast: 4722.
+- Yeast species ./5homology/full_svm_predict/full_pair_list.NoHm.filled.mips.svm.m0.2process.subpairs PPI pairs: 181798; 
+
+- Input protein pair file: 432197 pairs ! ; 
+- 775 has homology PPI in ./5homology/full_svm_predict/full_pair_list.NoHm.filled.mips.svm.m0.2process.subpairs; 
+perl   ./5homology/get_homologyYeastfullrfPredictPPI.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./5homology/human.ncbiprotein.list  ./5homology/psi_blast/psi_blast.tab.human2yeast ./5homology/full_rf_predict/full_pair_list.spokeNoHm.filled.dips.rf0.32.subpairs    ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.yeastHMppi.dips.rf
+
+para1: ./5homology/human.ncbiprotein.list
+para2: ./5homology/psi_blast/psi_blast.tab.human2yeast
+para3: ./5homology/full_rf_predict/full_pair_list.spokeNoHm.filled.dips.rf0.32.subpairs
+
+- Size of NCBI_protein_gene_list:  161561.
+- Size of genes having homology in Yeast: 4722.
+- Yeast species ./5homology/full_rf_predict/full_pair_list.spokeNoHm.filled.dips.rf0.32.subpairs PPI pairs: 172640; 
+
+- Input protein pair file: 432197 pairs ! ; 
+- 1143 has homology PPI in ./5homology/full_rf_predict/full_pair_list.spokeNoHm.filled.dips.rf0.32.subpairs; 
+perl   ./5homology/get_homologyYeastfullrfPredictPPI.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./5homology/human.ncbiprotein.list  ./5homology/psi_blast/psi_blast.tab.human2yeast ./5homology/full_rf_predict/full_pair_list.combineNoHm.filled.mips.rf0.2.subpairs   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.yeastHMppi.mips.rf
+
+para1: ./5homology/human.ncbiprotein.list
+para2: ./5homology/psi_blast/psi_blast.tab.human2yeast
+para3: ./5homology/full_rf_predict/full_pair_list.combineNoHm.filled.mips.rf0.2.subpairs
+
+- Size of NCBI_protein_gene_list:  161561.
+- Size of genes having homology in Yeast: 4722.
+- Yeast species ./5homology/full_rf_predict/full_pair_list.combineNoHm.filled.mips.rf0.2.subpairs PPI pairs: 155850; 
+
+- Input protein pair file: 432197 pairs ! ; 
+- 627 has homology PPI in ./5homology/full_rf_predict/full_pair_list.combineNoHm.filled.mips.rf0.2.subpairs; 
+ # -------------------  5 domain-interaction  ------------------------------ 
+
+perl   ./8domain/get_DDpairlogP.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./8domain/human.hprdNoself.posNoRecp.rand60w.cut0.000001.ddpcutpvalue  ./8domain/hprdxml.gene-domain.geneID     ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.ddpvalue
+
+- domainGeneMapFile: ./8domain/hprdxml.gene-domain.geneID : 11477 lines
+- geneid2geneSym:11477 entries. 
+- geneid2domain: 11477 entries. 
+- dd2pvalue:1280 entries. 
+- Input list:  432197 pairs ! - DDpvalue hits :  95366 pairs ! - DDpvalue zero value :  67633 pairs ! 
+ # -------------------   6 yeast - 2 - hybrid human  ------------------------------ 
+
+perl   ./6Y2h/get_Y2HHuman.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./6Y2h/human_natureY2H/NatureHumanY2H.PPIs.txt    nature  ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.naturey2h
+- Size of Nature Human Y2H PPI:  2754.
+- Size of Nature Human Y2H related genes :  1549.
+- Input list:  432197 pairs ! - Y2H hits :  3 pairs ! 
+perl   ./6Y2h/get_Y2HHuman.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w  ./6Y2h/human_cellY2H/table_S3_Y2HPPIs.txt    cell  ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.celly2h
+- Size of Cell Human Y2H PPI:  3194.
+- Size of Cell Human Y2H related genes :  1694.
+- Input list:  432197 pairs ! - Y2H hits :  4 pairs ! 
+ # -------------------   7 tissue feature human  ------------------------------ 
+
+perl   ./7tissue/get_GeneTissue.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w   ./7tissue/human.ncbiprotein.list     ./7tissue/Hs.data.GeneTissueMap     ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.tissue
+
+para1: ./7tissue/human.ncbiprotein.list
+para2: ./7tissue/Hs.data.GeneTissueMap
+para3: ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.tissue
+
+- gene Size of NCBI_protein_gene_list :  24370.
+- Size of genes having tissue information : 17204.
+
+- Input protein pair file: 432197 pairs ! ; 
+- 213987 gene Pairs has co-tissue. 
+ 
+------------------------   combine features into one set  ----------------------
+
+perl ./train_gold/CombineFeaturesHuman.27fea.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w     ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.27fea
+
+432197 rows !   28 features;
+ ------------------   Filled the missing value for combined 27 feature set  -----------
+
+perl ./train_gold/filledMissingValueHuman.27fea.pl   ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.27fea     ./train_gold/human/fullcompare/fullHprdCompareList/human.nohprdbind.randPair.300w.first42w.27fea.filled 
+432197 lines.

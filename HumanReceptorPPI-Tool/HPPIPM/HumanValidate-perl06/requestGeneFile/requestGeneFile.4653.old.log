@@ -1,0 +1,35 @@
+
+********************* count: 1 *********************************************
+
+-------------   For GENEID: 4653 ----------------------------
+
+
+RequestGeneFile: .//requestGeneFile/requestGeneFile.4653
+
+#/** 0-Create-PPI-List for a specific gene ID based on the NCBI-protein-gene-list file */        
+perl .//0create_ppi_list/makeggpair_4ncbiplist_hpbdlable.pl  .//requestGeneFile/requestGeneFile.4653 .//ncbi_info/human.ncbiprotein.list  .//0create_ppi_list/human.hprd.posPair .//0create_ppi_list/PPI_lists/human.hprdlabel.allhuman.ggi > .//0create_ppi_list/PPI_lists/human.hprdlabel.allhuman.ggi.4653.log
+
+#/** 1-generate-feature */
+cp .//0create_ppi_list/PPI_lists/human.hprdlabel.allhuman.ggi.4653  .//1features/train_gold/27feaSets/human.hprdlabel.allhuman.ggi.4653
+perl .//1features/Batch_featureExtractHumanFull.dirPara.27feafill.Rf.pl .//1features/ .//1features/train_gold/27feaSets/human.hprdlabel.allhuman.ggi.4653 > .//1features/train_gold/27feaSets/human.hprdlabel.allhuman.ggi.4653.27fea.log 
+
+#/** 2-Make the testing process for the generated feature files */
+perl .//3testing/RF4Tree_classify_valueout_nomissing_Dec05.pl .//1features/train_gold/27feaSets/human.hprdlabel.allhuman.ggi.4653.27fea.filled.rf .//2training/27fea-model/hprdreceptor.valiTrain.posAll.27feafill.rfJ5.200trees.changed  0 199 -100  .//3testing/perlRF_Test_output/human.hprdlabel.receptor.allhuman.ggi.4653.27feafil.Rf.predict .//3testing/perlRF_Test_output/human.hprdlabel.receptor.allhuman.ggi.4653.27feafil.Rf.out > .//3testing/perlRF_Test_output/human.hprdlabel.receptor.allhuman.ggi.4653.27feafil.Rf.log
+
+perl .//3testing/process_RFtestOut.pl  .//3testing/perlRF_Test_output/human.hprdlabel.receptor.allhuman.ggi.4653.27feafil.Rf.out .//3testing/perlRF_Test_output/human.hprdlabel.receptor.allhuman.ggi.4653.27feafil.Rf.scoreLabel > .//3testing/perlRF_Test_output/human.hprdlabel.receptor.allhuman.ggi.4653.27feafil.Rf.scorelabl.log 
+
+perl .//4analyze/add_NamePartnerGeneInfo_4ListScoreLabelFeaf.pl  .//0create_ppi_list/PPI_lists/human.hprdlabel.allhuman.ggi.4653 .//3testing/perlRF_Test_output/human.hprdlabel.receptor.allhuman.ggi.4653.27feafil.Rf.scoreLabel  .//1features/train_gold/27feaSets/human.hprdlabel.allhuman.ggi.4653.27fea.filled.rf .//ncbi_info/human_gene_info.ncbiGene .//4analyze/results/human.hprdlabel.receptor.RFall.ScorLablFeaGeneInfo.allhuman.ggi.4653  > .//4analyze/results/human.hprdlabel.receptor.RFall.ScorLablFeaGeneInfo.allhuman.ggi.4653.log 
+
+perl .//4analyze/add_geneticDisease_4ListScoreLabelFeafGeInf.pl  .//4analyze/results/human.hprdlabel.receptor.RFall.ScorLablFeaGeneInfo.allhuman.ggi.4653 .//ncbi_info/geneticDisorder-GDB/GDB-genetic.fromHTML.convertRaw .//4analyze/results/human.hprdlabel.receptor.RFall.ScorLablFeaGeneInfo.allhuman.ggi.4653.addDisease 
+
+- gdb_diseaseGeneList: .//ncbi_info/geneticDisorder-GDB/GDB-genetic.fromHTML.convertRaw : 1647 lines
+- geneinfo has 1640 entries.
+
+- input result file : .//4analyze/results/human.hprdlabel.receptor.RFall.ScorLablFeaGeneInfo.allhuman.ggi.4653: total 24379 lines; 
+
+- out GeneInfoPPIScoreLabelfea_diseaseFile file: .//4analyze/results/human.hprdlabel.receptor.RFall.ScorLablFeaGeneInfo.allhuman.ggi.4653.addDisease: 24379 lines 
+
+- Among them, there are 1099 lines having GDB-disease-info 
+
+
+==> - Totally 1 Genes in the interested list.  

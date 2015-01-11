@@ -1,0 +1,14 @@
+
+- 1 Genes in the interested list.  
+- Size proteins in NCBI_protein_gene_mappinglist:  161564.
+- Size genes in NCBI_protein_gene_mappinglist:  24380.
+
+==> we could generate GGI pairs 24380 then.
+
+ # There are 15266 POS pairs originally .
+#.//0create_ppi_list/PPI_lists/human.hprdlabel.allhuman.ggi.3561 has: 
+  -17 POS pairs.
+#.//0create_ppi_list/PPI_lists/human.hprdlabel.allhuman.ggi.3561 has: 
+  -24362 RAND pairs.
+==>  There are 24379 pairs outputed totally ! 
+

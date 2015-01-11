@@ -1,0 +1,14 @@
+
+- NCBI GeneProtein list file : human.ncbiprotein.list : 161564 lines
+- genesym2geneid: 24367 entries. 
+- geneid2genesymb: 24380 entries. 
+
+- HPMR ReceptorGeneList file : 1254 lines
+- receptorNCBIgene: 615 entries. 
+- For receptor list file: 611 lines GeneName items used 
+- For receptor list file: 24 lines HpredID items used 
+
+- Add Manually labeled HPMR Receptor file : 589 lines
+- Now receptorNCBIgene: 904 entries. 
+- From this Manually labeled HPMR Receptor file: 297 lines GeneSymbol used 
+- Output receptors (full list): 904 lines; 

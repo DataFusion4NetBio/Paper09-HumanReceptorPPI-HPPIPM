@@ -1,0 +1,10 @@
+perl G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/requestGeneFile/getGeneInfo.pl  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/requestGeneFile/requestGeneFile.2778 G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/ncbi_info/human_gene_info.ncbiGene G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/requestGeneFile/requestGeneFile.2778.geneinfo
+
+- geneinfo: G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/ncbi_info/human_gene_info.ncbiGene : 32973 lines
+- geneid2geneSym has 32973 entries.
+- geneinfo has 32973 entries.
+
+
+- Request GeneFile : G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/requestGeneFile/requestGeneFile.2778: total 1 lines; 
+
+- outRequestGeneInfo file: G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/requestGeneFile/requestGeneFile.2778.geneinfo: 1 lines 

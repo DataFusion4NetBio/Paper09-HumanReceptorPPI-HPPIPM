@@ -1,0 +1,19 @@
+perl G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/0create_ppi_list/makeggpair_4curGenelist_hpbdlable.pl  G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/requestGeneFile/requestGeneFile.4653 G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/ncbi_info/human.ncbiprotein.list G:\qyj\research\12-HumanDrosophiliavalidate-software\12HumanValidate\requestGeneFile\requestGeneFile.2gene G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/0create_ppi_list/human.hprd.posPair G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/0create_ppi_list/PPI_lists/human.hprdlabel.withCurGeneList.ggi
+
+- 1 Genes in the interested list.  
+- Size proteins in NCBI_protein_gene_mappinglist:  161564.
+- Size genes in NCBI_protein_gene_mappinglist:  24380.
+
+- 2 valid Genes in the partners protein/gene list.  The partnerProteinListFile contains 2 lines. 
+
+==> we could generate GGI pairs 2 then with the input genePartners list.
+
+ # There are 15266 POS pairs originally in file: G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/0create_ppi_list/human.hprd.posPair .
+
+
+#G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/0create_ppi_list/PPI_lists/human.hprdlabel.withCurGeneList.ggi.4653 has: 
+  - 0 POS pairs.
+#G:/qyj/research/12-HumanDrosophiliavalidate-software/12HumanValidate/0create_ppi_list/PPI_lists/human.hprdlabel.withCurGeneList.ggi.4653 has: 
+  - 2 RAND pairs.
+==>  There are 2 pairs outputed totally ! 
+
